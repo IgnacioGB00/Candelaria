@@ -99,7 +99,7 @@ body{
 }
 .buttonMain, .buttonsecond{
     font-size: var(--text-h3);
-    padding: var(--sp-8) var(--sp-16);
+    padding: var(--sp-16);
     border: none;
     border-radius: 10px;
     cursor: pointer;
