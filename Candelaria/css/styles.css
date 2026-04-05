@@ -89,6 +89,7 @@
 body{
     color: var(--color-crema);
     width: 100%;
+   overflow-x: hidden;
 }
 
 .title{
