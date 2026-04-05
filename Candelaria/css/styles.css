@@ -149,7 +149,7 @@ a:hover{
     color: var(--color-terracota) !important;
 }
 header{
-   background: url("../img/bannerHeader.avif"), gray;
+   background: url("../img/bannerHeader.avif");
     background-blend-mode: luminosity;
     background-size: cover;
     background-position: center;
@@ -247,8 +247,13 @@ header{
     }
 
         @media (min-width: 1200px) {
-
+            background: url("../img/bannerHeader.avif"), gray;
+             background-blend-mode: luminosity;
+             background-size: cover;
             background-position: center;
+
+             --x: -500px; /* Empezamos fuera de la pantalla */
+            --y: -500px;
             nav{
                 
                 .navContent{
@@ -640,9 +645,13 @@ footer{
         padding: var(--sp-48) 0 0 0;
         display: flex;
         align-items: center;
+        text-align: center;
         flex-direction: column;
+        gap: var(--sp-16);
         .logo{
             filter: invert(100%);
+            width: 70%;
+            padding-bottom: var(--sp-8);
         }
         ul{
             display: flex;
