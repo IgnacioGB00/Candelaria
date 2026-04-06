@@ -592,7 +592,7 @@ header::after {
                 display: flex;
                 gap: var(--sp-8);
                 img{
-                    width: 5em;
+                    width: 26px;
                 }
             }
         }
