@@ -196,12 +196,12 @@ hr {
 .btn--second {
     background: transparent;
     border: 2px solid var(--color-terracota-light);
-    color: var(--color-blanco);
+   color: var(--color-carbon);
 }
 
 .btn--second:hover {
     background-color: var(--color-terracota);
-    color: var(--color-carbon);
+    
 }
 
 /* ─────────────────────────────────────────────────────────
