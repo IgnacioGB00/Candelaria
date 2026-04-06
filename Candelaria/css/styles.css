@@ -405,7 +405,7 @@ header article h1 {
     width: 100%;
     overflow: hidden;
     padding: 20px 0;
-    contain: strict;
+
 }
 
 .imgConteiner {
