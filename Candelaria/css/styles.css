@@ -185,7 +185,7 @@ hr {
 
 .btn--main {
     background-color: var(--color-terracota);
-    color: var(--color-carbon);
+    color: var(--color-crema);
 }
 
 .btn--main:hover {
@@ -215,6 +215,7 @@ header {
     width: 100%;
     overflow-x: hidden;
     position: relative;
+    contain: layout;
 }
 
 /* Capa de imagen a color (efecto spotlight con el ratón) */
@@ -390,6 +391,8 @@ header article h1 {
     display: flex;
     white-space: nowrap;
     animation: scroll-right 30s linear infinite;
+    will-change: transform;
+    contain: layout style;
 }
 
 .marquee-content h2 {
@@ -402,6 +405,7 @@ header article h1 {
     width: 100%;
     overflow: hidden;
     padding: 20px 0;
+    contain: strict;
 }
 
 .imgConteiner {
@@ -409,6 +413,8 @@ header article h1 {
     width: max-content;
     gap: var(--sp-8);
     animation: scroll-images 30s linear infinite;
+    will-change: transform;
+    contain: layout style;
 }
 
 .imgConteiner:hover {
@@ -716,3 +722,4 @@ footer a {
         text-align: right !important;
     }
 }
+
