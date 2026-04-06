@@ -185,23 +185,23 @@ hr {
 
 .btn--main {
     background-color: var(--color-terracota);
-    color: var(--color-crema);
+    color: var(--color-carbon);
 }
 
 .btn--main:hover {
     background-color: var(--color-terracota-light);
-    color: var(--color-carbon);
+    
 }
 
 .btn--second {
     background: transparent;
     border: 2px solid var(--color-terracota-light);
-   color: var(--color-carbon);
+   color: var(--color-crema);
 }
 
 .btn--second:hover {
     background-color: var(--color-terracota);
-    
+    color: var(--color-carbon);
 }
 
 /* ─────────────────────────────────────────────────────────
