@@ -591,6 +591,9 @@ header::after {
             li{
                 display: flex;
                 gap: var(--sp-8);
+                img{
+                    width: 5em;
+                }
             }
         }
         .title:nth-child(5){
