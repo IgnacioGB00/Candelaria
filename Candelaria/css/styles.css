@@ -289,14 +289,12 @@ header{
             nav{
                 
                 .navContent{
-                    position: relative;
+                    position: static;
                     display: grid;
                     justify-items: end;
                     grid-template-columns: 85% 15%;
-                    padding: var(--sp-16);
                     height: auto;
                     gap: 0;
-                    padding: 0;
                     right: 0;
                     background: transparent;
                     backdrop-filter: blur(0);                 /* desenfoca lo de atrás */
