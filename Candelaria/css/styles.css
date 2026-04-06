@@ -86,6 +86,12 @@ h3 {
     font-size: var(--text-h3);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-48);
+}
+
 section {
     padding-top: var(--sp-48);
 }
