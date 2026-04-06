@@ -1,223 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="./css/styles.css" as="style">
-    <link  rel="stylesheet" href="./css/styles.css">
-    
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Candelaria</title>
 </head>
 <body>
     <header id="header">
         <nav>
-            <a href="#" ><img src="./img/logo.svg" alt="#" class="logo" width="90px" height="80px"></a>
-            <input type="checkbox" name="hanburger" id="hamburger">
-                <label for="hamburger" id="manu-hamburger">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
+            <a href="#"><img src="./img/logo.svg" alt="Logo Candelaria" class="logo" width="90" height="80"></a>
+            <input type="checkbox" name="hamburger" id="hamburger">
+            <label for="hamburger" id="manu-hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </label>
             <div class="navContent">
                 <ul>
-                    <li><a href="#" class="textlink">Sobre nosotros</a></li>
-                    <li><a href="#" class="textlink">Menu</a></li>
-                    <li><a href="#" class="textlink">experiencia</a></li>
-                    <li><a href="#" class="textlink">Contactos</a></li>
+                    <li><a href="#nosotros" class="textlink">Sobre nosotros</a></li>
+                    <li><a href="#menu" class="textlink">Menú</a></li>
+                    <li><a href="#experiencia" class="textlink">Experiencia</a></li>
+                    <li><a href="#horario" class="textlink">Contacto</a></li>
                 </ul>
-                <button class="buttonMain " type="button">Reserve Table</button>
+                <button class="btn btn--main" type="button">Reserve Table</button>
             </div>
         </nav>
 
-        <article>
+        <article class="flex-col flex-center text-center">
             <h1 class="title">Candelaria Restaurante</h1>
             <p class="bodyText">Crepas, carnes y buena mesa en Heredia</p>
-            <button class="buttonsecond">Ver Menu</button>
+            <button class="btn btn--second">Ver Menú</button>
         </article>
     </header>
+
     <main>
         <section id="nosotros">
             <div class="marquee">
                 <div class="marquee-content">
                     <h2 class="title blackH">Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros </h2>
-                    <h2 class="title blackH"  aria-hidden="true"> Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros</h2>
+                    <h2 class="title blackH" aria-hidden="true">Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros</h2>
                 </div>
             </div>
-           <div class="marquee-wrapper">
+
+            <div class="marquee-wrapper">
                 <div class="imgConteiner">
-                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImagenMobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImagen.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImagen.avif" alt="Platillo" loading="lazy" width="530"
-                        height="530">
+                    <!-- Primera pasada -->
+                    <picture class="imgNosotros">
+                        <source srcset="./img/sobreImagenMobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImagen.avif" alt="Platillo de Candelaria" loading="lazy" width="530" height="530">
                     </picture>
                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg2Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg2.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg2.avif" alt="Lugar" loading="lazy" width="530"
-                    height="530">
+                        <source srcset="./img/sobreImg2Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg2.avif" alt="Interior del restaurante" loading="lazy" width="530" height="530">
                     </picture>
                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg3Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg3.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg3.avif" alt="Lugar" loading="lazy" width="530"
-                    height="530">
+                        <source srcset="./img/sobreImg3Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg3.avif" alt="Ambiente del restaurante" loading="lazy" width="530" height="530">
                     </picture>
                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg4Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg4.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg4.avif" alt="Lugar" loading="lazy" width="530"
-                    height="530">
+                        <source srcset="./img/sobreImg4Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg4.avif" alt="Terraza" loading="lazy" width="530" height="530">
                     </picture>
                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg5Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg5.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg5.avif" alt="Lugar" loading="lazy" width="530"
-                    height="530">
+                        <source srcset="./img/sobreImg5Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg5.avif" alt="Detalle del lugar" loading="lazy" width="530" height="530">
                     </picture>
                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg5Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg5.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg5.avif" alt="Lugar" loading="lazy" width="530"
-                    height="530">
+                        <source srcset="./img/sobreImg6Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg6.avif" alt="Detalle del lugar" loading="lazy" width="530" height="530">
                     </picture>
-
-
-                     <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImagenMobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImagen.avif" media="(min-width: 950px)" />
-                         <img src="./img/sobreImagen.avif" alt="Platillo" aria-hidden="true" loading="lazy" width="530"
-                    height="530">
+                    <!-- Segunda pasada (duplicado para loop continuo) -->
+                    <picture class="imgNosotros" aria-hidden="true">
+                        <source srcset="./img/sobreImagenMobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImagen.avif" alt="" loading="lazy" width="530" height="530">
                     </picture>
-                    <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg2Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg2.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg2.avif" alt="Lugar" aria-hidden="true" loading="lazy" width="530"
-                    height="530">
+                    <picture class="imgNosotros" aria-hidden="true">
+                        <source srcset="./img/sobreImg2Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg2.avif" alt="" loading="lazy" width="530" height="530">
                     </picture>
-                    <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg3Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg3.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg3.avif" alt="Platillo" aria-hidden="true" loading="lazy" width="530"
-                    height="530">
+                    <picture class="imgNosotros" aria-hidden="true">
+                        <source srcset="./img/sobreImg3Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg3.avif" alt="" loading="lazy" width="530" height="530">
                     </picture>
-                    <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg4Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg4.avif" media="(min-width: 950px)" />
-                       <img src="./img/sobreImg4.avif" alt="Lugar" aria-hidden="true" loading="lazy" width="530"
-                    height="530">
+                    <picture class="imgNosotros" aria-hidden="true">
+                        <source srcset="./img/sobreImg4Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg4.avif" alt="" loading="lazy" width="530" height="530">
                     </picture>
-                    <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg5Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg5.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg5.avif" alt="Platillo" aria-hidden="true" loading="lazy" width="530"
-                    height="530">
+                    <picture class="imgNosotros" aria-hidden="true">
+                        <source srcset="./img/sobreImg5Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg5.avif" alt="" loading="lazy" width="530" height="530">
                     </picture>
-                    <picture class="imgNosotros">
-                        <source id="sourceMobile" srcset="./img/sobreImg5Mobile.avif" media="(max-width: 949px)" />
-                        <source id="sourceDesktop" srcset="./img/sobreImg5.avif" media="(min-width: 950px)" />
-                        <img src="./img/sobreImg6.avif" alt="Lugar" aria-hidden="true" loading="lazy" width="530"
-                    height="530">
+                    <picture class="imgNosotros" aria-hidden="true">
+                        <source srcset="./img/sobreImg6Mobile.avif" media="(max-width: 949px)">
+                        <img src="./img/sobreImg6.avif" alt="" loading="lazy" width="530" height="530">
                     </picture>
                 </div>
             </div>
-            <h3 class="title">restaurante y cafetería especializado en crepas y carnes, en San Francisco de Heredia</h3>
-            <p class="bodyText">Ambiente al aire libre, opciones veganas, cócteles</p>
+
+            <h3 class="title text-center">Restaurante y cafetería especializado en crepas y carnes, en San Francisco de Heredia</h3>
+            <p class="bodyText text-center">Ambiente al aire libre, opciones veganas, cócteles</p>
         </section>
+
         <section id="menu">
             <h2 class="title fon-sizeH2">Menú destacado</h2>
-            <article class="card">
+            <article class="card flex-col">
                 <h3 class="title">Crepas</h3>
                 <p class="bodyText">Crepes artesanales con rellenos de temporada procedentes de la zona.</p>
             </article>
-            <article class="card">
+            <article class="card flex-col">
                 <h3 class="title">Gallo Pinto Candelaria</h3>
                 <p class="bodyText">Nuestro desayuno estrella, realzado con ingredientes autóctonos de primera calidad.</p>
             </article>
-            <article class="card">
+            <article class="card flex-col">
                 <h3 class="title">Filet Mignon</h3>
                 <p class="bodyText">Solomillo de ternera cortado a mano y cocinado a la perfección en horno de leña.</p>
             </article>
-            <article class="card">
+            <article class="card flex-col">
                 <h3 class="title">Parrillada para 2</h3>
-                <p class="bodyText">La experiencia definitiva para compartir <br> con los amantes de la carne.</p>
+                <p class="bodyText">La experiencia definitiva para compartir con los amantes de la carne.</p>
             </article>
-            <button class="buttonMain" type="button">Ver Menu</button>
+            <button class="btn btn--main" type="button">Ver Menú</button>
         </section>
-        <section id="experiencia">
-            <article>
-                <h2 class="title fon-sizeH2">Opciones y experiencia</h2>
-                <ul>
-                    <li class="bodyText"><img src="./img/veganas.svg" alt="icono de comida vegana" width="50" height="50"> Opciones veganas</li>
-                    <li class="bodyText"><img src="./img/cocteles.svg" alt="icono de un coctel" width="50" height="50">Cócteles</li>
-                    <li class="bodyText"><img src="./img/terraza.svg" alt="icono de terraza" width="50" height="50">Terraza al aire libre</li>
-                </ul>
 
+        <section id="experiencia">
+            <article class="flex-col">
+                <h2 class="title fon-sizeH2">Opciones y experiencia</h2>
+                <ul class="flex-col">
+                    <li class="bodyText flex-row flex-align-center">
+                        <img src="./img/veganas.svg" alt="Icono comida vegana" width="50" height="50">
+                        Opciones veganas
+                    </li>
+                    <li class="bodyText flex-row flex-align-center">
+                        <img src="./img/cocteles.svg" alt="Icono cóctel" width="50" height="50">
+                        Cócteles
+                    </li>
+                    <li class="bodyText flex-row flex-align-center">
+                        <img src="./img/terraza.svg" alt="Icono terraza" width="50" height="50">
+                        Terraza al aire libre
+                    </li>
+                </ul>
                 <hr>
-                <p class="bodyText"> precio</p>
+                <p class="bodyText">Precio promedio por persona</p>
                 <p class="title">₡5,000 – ₡10,000</p>
             </article>
-            <article>
-                <h2 class="title fon-sizeH2">Disfruta en Casa</h2> 
-                <p class="bodyText">Lleva la experiencia de Organic Atelier hasta la puerta de tu hogar. Nuestro menú completo está disponible para entrega a domicilio a través de Uber Eats.</p>
-                <button class="buttonMain">Ordenar</button>
+            <article class="flex-col delivery-article">
+                <h2 class="title fon-sizeH2">Disfruta en Casa</h2>
+                <p class="bodyText">Lleva la experiencia de Candelaria hasta la puerta de tu hogar. Nuestro menú completo está disponible para entrega a domicilio a través de Uber Eats.</p>
+                <button class="btn btn--main">Ordenar</button>
             </article>
         </section>
+
         <section id="horario">
-            <article>
-                <h2 class="title fon-sizeH2">Horarios e infomación de contacto</h2>
-                <ul>
-                    <li><h3 class="title">horliario de apertura</h3></li>
-                    <li>
-                        <p class="bodyText">Lunes - Jueves:</p>
-                        <p class="bodyText">11:00 - 21:00</p>
+            <article class="flex-col">
+                <h2 class="title fon-sizeH2">Horarios e información de contacto</h2>
+                <ul class="flex-col schedule-list">
+                    <li><h3 class="title">Horario de apertura</h3></li>
+                    <li class="flex-row schedule-row">
+                        <p class="bodyText">Lunes – Jueves:</p>
+                        <p class="bodyText">11:00 – 21:00</p>
                     </li>
-                    <li>
-                        <p class="bodyText">Viernes - Sábado:</p>
-                        <p class="bodyText">11:00 - 22:30</p>
+                    <li class="flex-row schedule-row">
+                        <p class="bodyText">Viernes – Sábado:</p>
+                        <p class="bodyText">11:00 – 22:30</p>
                     </li>
-                    <li>
+                    <li class="flex-row schedule-row">
                         <p class="bodyText">Domingo:</p>
-                        <p class="bodyText">11:00 - 19:00</p>
+                        <p class="bodyText">11:00 – 19:00</p>
                     </li>
                 </ul>
-                
                 <hr>
-
-                <ul>
-                    <li><h3 class="title">Contactos</h3></li>
-                    <li><a href="#" class="bodyText">+506 2222-3333</a></li>
-                    <li><p class="bodyText">San Francisco de Heredia, 400m Oeste
-de la Iglesia</p></li>
+                <ul class="flex-col">
+                    <li><h3 class="title">Contacto</h3></li>
+                    <li><a href="tel:+50622223333" class="bodyText">+506 2222-3333</a></li>
+                    <li><p class="bodyText">San Francisco de Heredia, 400 m Oeste de la Iglesia</p></li>
                 </ul>
             </article>
-           
         </section>
     </main>
+
     <footer>
-        <article>
-             <a href="index.html"><img src="./img/logo.svg" alt="logo de Candelaria" loading="lazy" class="logo" width="80px" height="70px"></a>
-             <p class="bodyText">
-                Seleccionando ingredientes excepcionales y experiencias <br>memorables en el corazón de Heredia desde 2018.
-            </p>
-            <ul>
-                <li><img src="./img/instagram.svg" alt="icono de instagram" loading="lazy"></li>
-                <li><img src="./img/facebook.svg" alt="icono de facebook" loading="lazy"></li>
+        <article class="flex-col flex-align-center text-center footer-brand">
+            <a href="index.html">
+                <img src="./img/logo.svg" alt="Logo Candelaria" loading="lazy" class="logo" width="80" height="70">
+            </a>
+            <p class="bodyText">Seleccionando ingredientes excepcionales y experiencias memorables en el corazón de Heredia desde 2018.</p>
+            <ul class="flex-row">
+                <li><a href="#" aria-label="Instagram"><img src="./img/instagram.svg" alt="Instagram" loading="lazy"></a></li>
+                <li><a href="#" aria-label="Facebook"><img src="./img/facebook.svg" alt="Facebook" loading="lazy"></a></li>
             </ul>
         </article>
-            <ul>
-                <li><h3 class="title" class="bodyText">Navegación</h3></li>
-                <li><a href="#" class="bodyText">Menú</a></li>
-                <li><a href="#" class="bodyText">Uber Eats</a></li>
-                <li><a href="#" class="bodyText">Experiencia</a></li>
-            </ul>
 
-            <ul>
-                <li><h3 class="title">Visítanos</h3></li>
-                <li><p class="bodyText">San Francisco de Heredia Costa Rica, 40103</p></li>
-                <li><p class="bodyText">© 2024 The Organic Atelier - San <br> Francisco de Heredia. Todos los derechos reservados.</p></li>
-            </ul>
+        <ul class="flex-col">
+            <li><h3 class="title">Navegación</h3></li>
+            <li><a href="#menu" class="bodyText">Menú</a></li>
+            <li><a href="#" class="bodyText">Uber Eats</a></li>
+            <li><a href="#experiencia" class="bodyText">Experiencia</a></li>
+        </ul>
+
+        <ul class="flex-col footer-right">
+            <li><h3 class="title">Visítanos</h3></li>
+            <li><p class="bodyText">San Francisco de Heredia, Costa Rica 40103</p></li>
+            <li><p class="bodyText">© 2024 Candelaria – San Francisco de Heredia. Todos los derechos reservados.</p></li>
+        </ul>
     </footer>
+
+    <script src="./js/animation.js" defer></script>
 </body>
-<script  src="./js/animation.js" defer></script>
 </html>
